@@ -4,6 +4,7 @@ import pandas as pd
 import re
 import sys
 import nltk
+nltk.download()
 import streamlit as st
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
